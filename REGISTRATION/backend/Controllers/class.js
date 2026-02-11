@@ -40,4 +40,4 @@ class JambStaff {
 
 const newStaff = new JambStaff();
 
-console.log(newStaff.promotion(50));
+console.log(newStaff.promotion(55));

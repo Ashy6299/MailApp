@@ -1,0 +1,42 @@
+.about-section {
+  box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  margin-top: 50px;
+  height: auto;
+}
+
+.about-image img {
+  height: 300px;
+  width: 300px;
+  border-radius: 190px;
+  margin-top: 30px;
+  margin-left: -2px;
+  border: 5px solid yellow;
+}
+.about-details {
+  margin-top: 50px;
+}
+.about-title h5 {
+  text-align: center;
+}
+
+.line {
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 1px auto;
+  background-color: rgb(196, 196, 43);
+}
+.text {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: justify;
+  margin-right: 10px;
+}
+
+@media (min-width: 1000px) {
+  .about-section {
+    height: auto;
+  }
+}

@@ -1,0 +1,35 @@
+.sidebar-section {
+  display: flex;
+  background-color: #030303da;
+}
+
+.sidebar {
+  height: 100vh;
+  background-color: #030303da;
+  width: 90px;
+  position: fixed;
+}
+
+.sidebar-expand {
+  width: 230px;
+}
+
+.container-fluid {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  overflow: hidden;
+}
+
+.icon-for-sidebar-expand-and-collapse {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  cursor: pointer;
+}
+.icon-for-sidebar-expand-and-collapse p svg {
+  background-color: rgb(9, 9, 9);
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+}

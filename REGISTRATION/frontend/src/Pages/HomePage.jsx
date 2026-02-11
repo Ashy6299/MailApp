@@ -40,45 +40,45 @@ function Home() {
   return (
     <>
       <ButtonAppBar />
-      <div className='container mt-4'>
-        <div className='row mt-4'>
-          <div className='col-lg-4'>
+      <div className="container mt-4">
+        <div className="row mt-4">
+          <div className="col-lg-4">
             <input
-              className='form-control mb-3'
-              placeholder='firstName'
+              className="form-control mb-3"
+              placeholder="firstName"
               onChange={handleChange}
-              name='firstName'
+              name="firstName"
             ></input>
 
             <input
-              className='form-control mb-3'
-              placeholder='lastName'
+              className="form-control mb-3"
+              placeholder="lastName"
               onChange={handleChange}
-              name='lastName'
+              name="lastName"
             ></input>
             <input
-              className='form-control mb-3'
-              placeholder='email'
+              className="form-control mb-3"
+              placeholder="email"
               onChange={handleChange}
-              name='email'
+              name="email"
             ></input>
             <input
-              className='form-control mb-3'
-              placeholder='phoneNumber'
+              className="form-control mb-3"
+              placeholder="phoneNumber"
               onChange={handleChange}
-              name='phoneNumber'
+              name="phoneNumber"
             ></input>
             <input
-              className='form-control mb-3'
-              placeholder='gender'
+              className="form-control mb-3"
+              placeholder="gender"
               onChange={handleChange}
-              name='gender'
+              name="gender"
             ></input>
-            <Button variant='outlined' className='mb-4' onClick={addAccount}>
+            <Button variant="outlined" className="mb-4" onClick={addAccount}>
               Add Account
             </Button>
           </div>
-          <table className='table table-striped'>
+          <table className="table table-striped">
             <thead>
               <tr>
                 <th>First Name</th>
@@ -101,7 +101,7 @@ function Home() {
                     <Button
                       component={Link}
                       to={`/record/${c._id}`}
-                      variant='outlined'
+                      variant="outlined"
                     >
                       view
                     </Button>

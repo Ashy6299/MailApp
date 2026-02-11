@@ -24,13 +24,13 @@ const MyHomePage = () => {
       <ButtonAppBar />
       {Data !== undefined ? (
         <div className="container mt-4">
-          <div className="row">
-            <div className="col-4 text-start me-4 pt-1">
-              <h6>Total Number Of Centres Created:</h6>
+          <div className="row ">
+            <div className="col-xl-6 col-lg-6 col-md-4 col-sm-4 section">
+              <h5>Total Number Of Centres Created:</h5>
               <p className="data text-end mt-3 fs-1 fw-bold">{Data}</p>
             </div>
-            <div className="col-4 text-start pt-1">
-              <h6>Total Number Of Accounts Created:</h6>
+            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 section">
+              <h5>Total Number Of Accounts Created:</h5>
             </div>
           </div>
         </div>
